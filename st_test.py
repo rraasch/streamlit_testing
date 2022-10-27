@@ -8,7 +8,6 @@ st.table(pd.DataFrame({
     'first column': [1, 2, 3, 4],
     'second column': [10, 20, 30, 40]
 }))
-st.write("Here is an update to the app")
 
 x = st.slider('x', 0, 10)
 st.write(x, 'squared is', x*x)
